@@ -57,7 +57,7 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src={"/images/logo/logo_azul.png"}
+                  src={"spebolivia/images/logo/logo_azul.png"}
                   alt="logo"
                   width={140}
                   height={30}

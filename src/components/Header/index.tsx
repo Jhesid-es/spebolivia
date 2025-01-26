@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import logoAzul from "/images/logo/logo_azul.png"
+import { BASEPATH } from "@/app/constantes";
 const Header = () => {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -57,14 +58,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src={"/spebolivia/images/logo/logo_azul.png"}
+                  src={`${BASEPATH}/images/logo/logo_azul.png`}
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo_blanco.png"
+                  src={`${BASEPATH}/images/logo/logo_blanco.png`}
                   alt="logo"
                   width={140}
                   height={30}

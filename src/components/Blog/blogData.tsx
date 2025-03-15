@@ -3,44 +3,44 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Las mejores noticias sobre la industria petrolera en Bolivia",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/01/Engineer_of_petroleum.jpg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "Ingeniero de campo",
     },
-    tags: ["creative"],
+    tags: ["Petrolera"],
     publishDate: "2025",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Las formas de perforar un pozo",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-02.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT26qSlXPqhgsosqb0VBcQvicxdu2A6Vgk-Jw&s",
     author: {
       name: "Musharof Chy",
       image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      designation: "Ingeniero de Perforacion",
     },
-    tags: ["computer"],
+    tags: ["Perforación"],
     publishDate: "2025",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Tips para progresar en las energias alternativas.",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB9YjNBldVmY9s2FRYn6xciJ6uaFQ0btBJU6ifG_Xx6ephRO7V1szoYGDtiW6pWxFzlVFtEm5JyXsenXpV6BnzFrKCiUZq2jRQwCbBAC5v7061xHeE21q459uThjmftuFCWui8HhZe_I0w/s1600/ENERGIA-RENOVABLES-3.jpg",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Ingeniero en Energias",
     },
-    tags: ["design"],
+    tags: ["Energias Alternativas"],
     publishDate: "2025",
   },
 ];

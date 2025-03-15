@@ -5,6 +5,7 @@ import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 
 import ModalVideo from "react-modal-video";
+import { BASEPATH } from "@/app/constantes";
 
 const VideoEstudiante = () => {
   const [isOpen, setOpen] = useState(false);
@@ -25,7 +26,7 @@ const VideoEstudiante = () => {
               data-wow-delay=".15s"
             >
               <div className="relative aspect-[77/40] items-center justify-center">
-                <Image src="/images/video/miembro-estudiantil.png" alt="video image" fill />
+                <Image src={`${BASEPATH}/images/video/miembro-estudiantil.png`} alt="video image" fill />
                 <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">
                   <button
                     aria-label="video play button"
